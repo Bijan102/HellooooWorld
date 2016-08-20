@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Declaring IBOutlets
     @IBOutlet weak var background: UIImageView!
     
     @IBOutlet weak var titleImage: UIImageView!
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //Action listerner for when button is pressed on welcome screen
     @IBAction func welcomePressed(_ sender: AnyObject) {
         background.isHidden = false;
         titleImage.isHidden = false;
